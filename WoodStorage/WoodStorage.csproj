@@ -4,10 +4,20 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <GamePath>/home/lee/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Stardew Valley/</GamePath>
+    </PropertyGroup>
+
+    <PropertyGroup>
+      <RunCommand>dotnet-SDV.sh</RunCommand>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="assets\" />
+      <Folder Include="notes_assets\" />
     </ItemGroup>
 
 </Project>

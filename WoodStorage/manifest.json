@@ -1,2 +1,10 @@
 {
+  "Name": "Wood Storage",
+  "Author": "Leeous (contact@leeous.com)",
+  "Version": "1.0.0",
+  "Description": "Placeholder",
+  "UniqueID": "leeous.woodstorage",
+  "EntryDll": "WoodStorage.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
 }
